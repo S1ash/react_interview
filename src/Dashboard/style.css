@@ -1,0 +1,39 @@
+.Dashboard {
+  width: 100%;
+  max-width: 800px;
+}
+
+.Dashboard header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+  background-color: #282c34;
+}
+
+.Dashboard header span {
+  margin-right: 15px;
+  color: #61dafb;
+}
+
+.DashboardTable {
+  width: 100%;
+  color: #61dafb;
+}
+
+.DashboardTable thead {
+    font-weight: 700;
+}
+
+.DashboardTable tbody tr td:first-child {
+    width: 100px;
+}
+
+.DashboardAvatar {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
